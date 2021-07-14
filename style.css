@@ -1,0 +1,171 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+}
+
+.good-food{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 50px;
+    color: green;
+    text-align: center;
+}
+
+.good{
+    color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img{
+      width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h3{
+    font-size: 30px;
+}
+
+.part{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(green, rgb(108, 255, 71));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.second-part{
+    background-image: url(img/Frame57.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.recipies{
+    
+    background-repeat: no-repeat;
+    background-position:left;
+    text-align: center;
+}
+
+.food-item{
+    box-shadow:10px 10px 10px rgb(65, 214, 65);
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    border-radius: 5%;
+ }
+
+ #vege{
+    border-left: 2px solid;
+    border-image-slice: linear-gradient(rgb(4, 250, 4),blue);
+    border-image-slice: 1;
+    border-color: blue;
+
+}
+#diet{
+    border-left: 2px solid;
+    border-image-slice: linear-gradient(rgb(4, 250, 4),blue);
+    border-image-slice: 1;
+    border-color: blue;
+
+}
+
+#fruits{
+    border-left: 2px solid;
+    border-image-slice: linear-gradient(rgb(4, 250, 4),blue);
+    border-image-slice: 1;
+    border-color: blue;
+}
+
+.colour-name{
+    color: goldenrod;
+}
+
+.user{
+    width: 15%;
+}
+
+.second{
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    background-color:rgb(235, 235, 235);
+    margin-bottom:  30px;
+}
+
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+.foot{
+    color: rgb(223, 23, 23);
+    font-weight: 700;
+    text-align: center;
+    
+}
+.second-last{
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    background-color:rgb(212, 202, 202);
+    margin-bottom:  30px;
+}
+.online{
+    width: 15%;
+}
+
+.end{
+    width: 92.5%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+    padding:50px;
+    
+    font-weight: 700;
+    margin-bottom: 5;   
+}
+
+.colour-grey{
+    color: grey;
+}
+
+.color-white{
+    color: honeydew;
+}
